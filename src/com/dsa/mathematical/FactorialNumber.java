@@ -2,7 +2,7 @@ package com.dsa.mathematical;
 
 public class FactorialNumber {
     public static void main(String[] args) {
-        int num = 6;
+        int num = 15;
         int fact = 1;
 //        ----------------Using while Loop------------
 //        while(num>0){
@@ -11,7 +11,7 @@ public class FactorialNumber {
 //        }
 
 //        ----------------Using for  loop--------------------
-        for(int i = 2;i<=num;i++){
+        for(int i = 1;i<=num;i++){
             fact = fact*i;
         }
         System.out.println("Factorial of number"+" is: "+fact);
